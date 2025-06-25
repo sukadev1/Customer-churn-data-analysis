@@ -65,6 +65,7 @@ A complete **SQL-driven churn analytics project** producing valuable business in
 - Import the dataset:
   - Locate the file `telecom_customer_churn.csv` inside the `/Dataset` folder
   - Import it into a SQL Server table named `[telecom_customer_churn]` (you can use the SSMS Import Wizard or a `BULK INSERT` command)
+  - (Optional) Refer to `telecom_data_dictionary.csv` for understanding each field's description and data meaning
 - Run `telecom_customer_churn_analysis.sql`
 - Review insights in result sets or extend the analysis as needed
 
