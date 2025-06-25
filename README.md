@@ -58,13 +58,16 @@ A complete **SQL-driven churn analytics project** producing valuable business in
 
 ---
 
----
-
 ## ⭐ How to Use
+- Download or clone this repository to your local system
 - Open **SQL Server Management Studio (SSMS)**
 - Connect to your database
+- Import the dataset:
+  - Locate the file `telecom_customer_churn.csv` inside the `/Dataset` folder
+  - Import it into a SQL Server table named `[telecom_customer_churn]` (you can use the SSMS Import Wizard or a `BULK INSERT` command)
 - Run `telecom_customer_churn_analysis.sql`
-- Review insights in result sets or extend analysis as needed
+- Review insights in result sets or extend the analysis as needed
+
 
 ---
 
